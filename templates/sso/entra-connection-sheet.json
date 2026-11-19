@@ -1,0 +1,17 @@
+{
+  "templateOnly": true,
+  "provider": "entra",
+  "protocol": "SAML",
+  "customerDomain": "company.example",
+  "serviceURL": "https://percival.company.example",
+  "spEntityID": "REPLACE_WITH_OPERATOR_SUPPLIED_ENTITY_ID",
+  "acsURL": "https://replace-with-operator-supplied-acs.example",
+  "nameIDFormat": "AGREE_WITH_SERVICE_OPERATOR",
+  "requiredAttributes": {},
+  "idpMetadataURL": "REPLACE_WITH_IDP_METADATA_URL",
+  "pilotUsers": [
+    "pilot@company.example"
+  ],
+  "certificateRenewalOwner": "ASSIGN_OWNER",
+  "notes": "Connection worksheet only. Not a Percival import schema. Keep private keys, client secrets and tokens out."
+}

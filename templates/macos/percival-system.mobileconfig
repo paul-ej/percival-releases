@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadIdentifier</key>
+	<string>com.paul-ej.percival.template.system</string>
+	<key>PayloadUUID</key>
+	<string>fc764f93-e585-5c79-9254-50e755f6d289</string>
+	<key>PayloadDisplayName</key>
+	<string>Percival organisation settings (System)</string>
+	<key>PayloadDescription</key>
+	<string>Template. Replace company.example and the service address; assign your own payload identifiers and UUIDs.</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.paul-ej.percival.template.system.preferences</string>
+			<key>PayloadUUID</key>
+			<string>7d8baf3d-507e-520b-aabe-cb6ae2166f2a</string>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.paul-ej.percival.mac</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>ServerURL</key>
+								<string>https://percival.company.example</string>
+								<key>SignInDomains</key>
+								<dict>
+									<key>company.example</key>
+									<string>https://percival.company.example</string>
+								</dict>
+								<key>ShowOrganizationSetup</key>
+								<false/>
+								<key>AllowRemoteGeneration</key>
+								<false/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
